@@ -18,8 +18,7 @@ import edu.princeton.cs.algs4.StdOut;
 
 public class E115 {
     public static void main(String[] args) {
-        double x = 0;
-        double y = 0;
+        double x, y;
         while (!StdIn.isEmpty()) {
             x = StdIn.readDouble();
             y = StdIn.readDouble();
