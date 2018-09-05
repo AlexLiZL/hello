@@ -13,8 +13,21 @@
  *
  **************************************************************************** */
 
+import edu.princeton.cs.algs4.StdIn;
+import edu.princeton.cs.algs4.StdOut;
+
 public class E113 {
     public static void main(String[] args) {
-
+        double[] number;
+        while (!StdIn.isEmpty()) {
+            number = StdIn.readAllDoubles();
+        }
+        if (number[0] == number[1]) {
+            if (number[1] == number[2]) {
+                StdOut.println("equal");
+            }
+        }
+        else
+            StdOut.println("not equal");
     }
 }
