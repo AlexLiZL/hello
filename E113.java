@@ -18,7 +18,9 @@ import edu.princeton.cs.algs4.StdOut;
 
 public class E113 {
     public static void main(String[] args) {
-        double[] number;
+        double[] number = new double[] {
+                1, 2, 3
+        };
         while (!StdIn.isEmpty()) {
             number = StdIn.readAllDoubles();
         }
