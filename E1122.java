@@ -16,8 +16,6 @@ public class E1122 {
         };
         int d = 0;
         StdOut.println(rank(k, array, d));
-
-
     }
 
     public static int rank(int key, int[] a, int depth) {
